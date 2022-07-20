@@ -1,0 +1,27 @@
+body -h1{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+.top-banner{
+    background-image: url(assets/Banner\ Image.png);
+    background-color: rgba(54, 51, 66, 0.781);
+    height: 0%;
+    width: 10%px;
+    color:rgb(240, 225, 228);
+    text-emphasis:center;
+    margin: 0px;
+    font-size: 30px;
+   background-image:no-repeat;
+}
+
+#com{
+    background-color: rgb(219, 7, 39);
+    border: 2px solid rgb(221, 13, 13);
+    height: 90px;
+    width: 255px;
+    border-radius: 5px;
+    text-align: center;
+    font-size:30px;
+}
