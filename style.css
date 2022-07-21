@@ -5,23 +5,89 @@ body -h1{
 
 
 .top-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url(assets/Banner\ Image.png);
     background-color: rgba(54, 51, 66, 0.781);
-    height: 0%;
-    width: 10%px;
-    color:rgb(240, 225, 228);
+    position: relative;
+    left: 200px;
+    height: 660px;
+    width: 1500px;
+    color:rgb(37, 233, 31);
     text-emphasis:center;
     margin: 0px;
     font-size: 30px;
-   background-image:no-repeat;
+   background-image:no repeat;
 }
 
 #com{
     background-color: rgb(219, 7, 39);
-    border: 2px solid rgb(221, 13, 13);
+    border: 2px solid rgb(189, 160, 160);
     height: 90px;
     width: 255px;
     border-radius: 5px;
     text-align: center;
     font-size:30px;
 }
+.blogs-sector{
+    background-color: black;
+    border: 1px solid rgb(189, 160, 160);
+    position: relative;
+    left: 200px;
+    height: 400px;
+    width: 250px;
+    border-radius: 20px;
+    text-align: center;
+    font-size:0px;
+  
+}
+
+.blog{
+    display: block;
+    background-color: aliceblue;
+    padding: 10px 100px ;
+    position: relative;
+    right: 180px;
+    margin: 50px 200px;
+    border-radius: 50px;
+    color: rgb(192, 24, 24);
+    font-size: 15px;
+    
+    
+}
+.blog{
+    display: block;
+    background: white;
+    margin: 50px 200px;
+    border-radius: 50px;
+    color: black;
+    font-size: 15px;
+}
+.blog color{
+    display: block;
+    background: white;
+    margin: 50px 200px;
+    border-radius: 50px;
+    color: black;
+    font-size: 15px;
+    padding:10px 100px;
+    
+}
+.blog color :hover{
+    background-color: red;
+}
+nav ul{
+    display: flex;
+    position: relative;
+    left: 400px;
+}
+nav li{
+    list-style: none;
+    margin: 30px;
+    font-size: 20px;
+}
+
+
+
+
